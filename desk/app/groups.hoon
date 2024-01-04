@@ -94,7 +94,7 @@
   |=  =ship
   ^-  ?(%alien %known)
   =-  (fall (~(get by -) ship) %alien)
-  .^((map ^ship ?(%alien %known)) %ax /(scot %p our.bowl)//(scot %da now.bowl)/peers)
+  .^((map ^ship ?(%alien %known)) %ax /(scot %p our.bowl)//(en-cose da+now.bowl ud+tick.bowl)/peers)
 ++  poke
   |=  [=mark =vase]
   ^+  cor
@@ -212,7 +212,8 @@
 ++  channel-scry
   |=  =nest:g
   ^-  path
-  /(scot %p our.bowl)/[p.nest]/(scot %da now.bowl)/[p.nest]/(scot %p p.q.nest)/[q.q.nest]
+  =+  [our=(scot %p our.bowl) cos=(en-cose da+now.bowl ud+tick.bowl)]
+  /[our]/[p.nest]/[cos]/[p.nest]/(scot %p p.q.nest)/[q.q.nest]
 ::
 ++  reset-all-perms
   (~(rep by groups) (reset-group-perms cor))
@@ -780,7 +781,7 @@
     :*  care
         (scot %p our.bowl)
         dude
-        (scot %da now.bowl)
+        (en-cose da+now.bowl ud+tick.bowl)
         path
     ==
   ::
