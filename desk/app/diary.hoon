@@ -230,7 +230,8 @@
     (toggle-post toggle)
   ::
       %leave-old-channels
-    =/  groups-path  /(scot %p our.bowl)/groups/(scot %da now.bowl)/groups/noun
+    =/  groups-path
+      /(scot %p our.bowl)/groups/(en-cose da+now.bowl ud+tick.bowl)/groups/noun
     =/  groups  .^(groups:g %gx groups-path)
     =/  diary-flags-from-groups
       %+  turn  ~(tap by groups)
@@ -326,7 +327,7 @@
     ++  groups
       .^  groups:g
         %gx
-        /(scot %p our.bowl)/groups/(scot %da now.bowl)/groups/noun
+        (en-bema [our.bowl %groups da+now.bowl ud+tick.bowl] /groups/noun)
       ==
     --
   --
@@ -607,7 +608,7 @@
     =>  [c2=c2 bowl=bowl ..zuse]  ~+
     .^  (map flag:c2 chat:c2)
       %gx
-      /(scot %p our.bowl)/chat/(scot %da now.bowl)/old/noun
+      /(scot %p our.bowl)/chat/(en-cose da+now.bowl ud+tick.bowl)/old/noun
     ==
   ::
   ++  convert-channels
@@ -1017,7 +1018,7 @@
   ::
   ++  di-groups-scry
     =*  group  group.perm.diary
-    /(scot %p our.bowl)/groups/(scot %da now.bowl)/groups/(scot %p p.group)/[q.group]
+    /(scot %p our.bowl)/groups/(en-cose da+now.bowl ud+tick.bowl)/groups/(scot %p p.group)/[q.group]
   ::
   ++  di-am-host  =(our.bowl p.flag)
   ++  di-from-host  |(=(p.flag src.bowl) =(p.group.perm.diary src.bowl))
