@@ -1991,11 +1991,11 @@
 ::
 ++  scry-for-existence
   |*  [app=term =path]
-  .^(? %gu (scot %p our.bowl) app (scot %da now.bowl) path)
+  .^(? %gu (scot %p our.bowl) app (en-cose da+now.bowl ud+tick.bowl) path)
 ::
 ++  scry-for-marked
   |*  [=mold app=term =path]
-  .^(mold %gx (scot %p our.bowl) app (scot %da now.bowl) path)
+  .^(mold %gx (scot %p our.bowl) app (en-cose da+now.bowl ud+tick.bowl) path)
 ::
 ++  scry-for
   |*  [=mold app=term =path]
