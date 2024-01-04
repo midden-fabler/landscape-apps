@@ -71,7 +71,7 @@
   :*  care
       (scot %p our.bowl)
       dude
-      (scot %da now.bowl)
+      (en-cose da+now.bowl ud+tick.bowl)
       path
   ==
 ::
