@@ -85,7 +85,7 @@
     |^
     =/  line=request-line:server  (parse-request-line:server url.request)
     =/  m=metadata:reel
-      .^(metadata:reel %gx [(scot %p our.bowl) %reel (scot %da now.bowl) %metadata token %noun ~])
+      .^(metadata:reel %gx [(scot %p our.bowl) %reel (en-cose da+now.bowl ud+tick.bowl) %metadata token %noun ~])
     ?+    method.request  :_  this  (give not-found:gen:server)
         %'GET'
       =/  description
@@ -96,7 +96,7 @@
         :_  this  (give not-found:gen:server)
       =/  params  ~(got by (frisk q.u.body.request))
       =/  bait
-        .^(cord %gx [(scot %p our.bowl) %reel (scot %da now.bowl) %service %noun ~])
+        .^(cord %gx [(scot %p our.bowl) %reel (en-cose da+now.bowl ud+tick.bowl) %service %noun ~])
       =/  new-meta=metadata:reel
         [%greeting-0 (~(put by fields.m) 'description' (params 'description'))]
       :_  this(token (params 'token'), dm-text (params 'dm-text'), pals-tag (params 'pals-tag'))
