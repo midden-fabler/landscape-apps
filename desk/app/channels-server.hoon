@@ -453,7 +453,7 @@
       =/  groups
         .^  groups:g
           %gx
-          /(scot %p our.bowl)/groups/(scot %da now.bowl)/groups/noun
+          (en-bema [our.bowl %groups da+now.bowl ud+tick.bowl] /groups/noun)
         ==
       =/  gop  (~(got by groups) group.new)
       %-  ~(any in bloc.gop)
