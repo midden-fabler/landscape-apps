@@ -59,7 +59,8 @@
       %grouper-check-link
     =+  !<(=path vase)
     ?>  ?=([%check-link @ @ ~] path)
-    =/  baseurl  .^(cord %gx /(scot %p our.bowl)/reel/(scot %da now.bowl)/service/noun)
+    =/  baseurl
+      .^(cord %gx (en-bema [our.bowl %reel da+now.bowl ud+tick.bowl] /service/noun))
     =/  target=ship  (slav %p i.t.path)
     =/  group=cord  i.t.t.path
     :_  this
@@ -116,8 +117,8 @@
     ~?  dev-mode  'inviting'
     =/  =invite:groups  [[our.bowl token.bite] joiner.bite]
     :_  this
-    =/  our  (scot %p our.bowl)
-    =/  =path  /[our]/groups/(scot %da now.bowl)/groups/[our]/[token.bite]/noun
+    =+  [our=(scot %p our.bowl) cos=(en-cose da+now.bowl ud+tick.bowl)]
+    =/  =path  /[our]/groups/[cos]/groups/[our]/[token.bite]/noun
     =+  .^(=group:groups %gx path)
     ~?  dev-mode  cordon.group
     ?+  -.cordon.group  ~
