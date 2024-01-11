@@ -776,7 +776,7 @@
 ::
 ++  want-hark
   |=  kind=?(%msg %to-us)
-  %+  (fit-level:volume [our now]:bowl)  ~
+  %+  (fit-level:volume [our now tick]:bowl)  ~
   ?-  kind
     %to-us  %soft
     %msg    %loud

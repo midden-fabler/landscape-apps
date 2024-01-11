@@ -204,12 +204,12 @@
   =.  replyers  (~(put in replyers) author.u.reply)
   $(entries +.entries)
 ++  perms
-  |_  [our=@p now=@da =nest:c group=flag:g]
+  |_  [our=@p now=@da tick=@ud =nest:c group=flag:g]
   ++  am-host  =(our ship.nest)
   ++  groups-scry
     ^-  path
     :-  (scot %p our)
-    /groups/(scot %da now)/groups/(scot %p p.group)/[q.group]
+    /groups/(en-cose da+now ud+tick)/groups/(scot %p p.group)/[q.group]
   ::
   ++  is-admin
     |=  her=ship

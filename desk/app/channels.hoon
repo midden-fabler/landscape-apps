@@ -562,7 +562,7 @@
   ++  emil  |=(caz=(list card) ca-core(cor (^emil caz)))
   ++  give  |=(=gift:agent:gall ca-core(cor (^give gift)))
   ++  safe-watch  |=([=wire =dock =path] ca-core(cor (^safe-watch +<)))
-  ++  ca-perms  ~(. perms:utils our.bowl now.bowl nest group.perm.perm.channel)
+  ++  ca-perms  ~(. perms:utils our.bowl now.bowl tick.bowl nest group.perm.perm.channel)
   ++  ca-abet
     %_    cor
         v-channels
@@ -1174,7 +1174,7 @@
     ::
     ++  want-hark
       |=  kind=?(%mention %ours %any)
-      %+  (fit-level:volume [our now]:bowl)
+      %+  (fit-level:volume [our now tick]:bowl)
         [%channel nest]
       ?-  kind
         %mention  %soft  ::  mentioned us

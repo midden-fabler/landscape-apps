@@ -487,7 +487,7 @@
 ::
 ++  want-hark
   |=  [flag=?(~ flag:g) kind=?(%msg %to-us)]
-  %+  (fit-level:volume [our now]:bowl)
+  %+  (fit-level:volume [our now tick]:bowl)
     ?~  flag  ~
     [%channel %heap flag]
   ?-  kind

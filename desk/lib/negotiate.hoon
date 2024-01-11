@@ -74,7 +74,7 @@
 ++  read-status
   |=  [bowl:gall =gill:gall]
   .^  status
-    %gx  (scot %p our)  dap  (scot %da now)
+    %gx  (scot %p our)  dap  (en-cose da+now ud+tick)
     /~/negotiate/status/(scot %p p.gill)/[q.gill]/noun
   ==
 ::

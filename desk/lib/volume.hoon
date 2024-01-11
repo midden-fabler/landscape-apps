@@ -20,8 +20,8 @@
 ::  +fit-level: full "do we want a notification for this" check
 ::
 ++  fit-level
-  |=  [our=@p now=@da]
-  =+  get-level=(get-level our now)
+  |=  [our=@p now=@da tick=@ud]
+  =+  get-level=(get-level our now tick)
   |=  [=scope =level]
   %+  gte-level  level
   (get-level scope)
@@ -37,7 +37,7 @@
   ==
 ::
 ++  get-level
-  |=  [our=@p now=@da]
+  |=  [our=@p now=@da tick=@ud]
   |=  =scope
   ^-  level
   =;  =value
@@ -60,6 +60,6 @@
   ++  make-beam
     |=  [=desk =spur]
     ^-  path
-    [(scot %p our) desk (scot %da now) spur]
+    [(scot %p our) desk (en-cose da+now ud+tick) spur]
   --
 --

@@ -97,7 +97,7 @@
 ::
 ++  want-hark
   |=  [flag=?(~ flag:d) kind=?(%msg %to-us) =bowl:gall]
-  %+  (fit-level:volume [our now]:bowl)
+  %+  (fit-level:volume [our now tick]:bowl)
     ?~  flag  ~
     [%channel %diary flag]
   ?-  kind

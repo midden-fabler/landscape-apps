@@ -374,7 +374,7 @@
   ++  emit  |=(=card ca-core(cor (^emit card)))
   ++  emil  |=(caz=(list card) ca-core(cor (^emil caz)))
   ++  give  |=(=gift:agent:gall ca-core(cor (^give gift)))
-  ++  ca-perms  ~(. perms:utils our.bowl now.bowl nest group.perm.perm.channel)
+  ++  ca-perms  ~(. perms:utils our.bowl now.bowl tick.bowl nest group.perm.perm.channel)
   ++  ca-abet
     %_  cor
         v-channels
